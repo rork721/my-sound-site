@@ -7,7 +7,7 @@
 </head>
 <body>
     <audio id="myAudio" autoplay>
-        <source src="audio.mp3" type="audio/mpeg">
+        <source src="https://drive.google.com/uc?export=download&id=1dblbNIx6TZwbDlPzlZasnmYl-SK8WQqs" type="audio/mpeg">
         Ваш браузер не поддерживает аудио.
     </audio>
 
@@ -21,6 +21,7 @@
     </script>
 
     <h1>Добро пожаловать!</h1>
-    <p> ещкере.</p>
+    <p>Кликните в любое место, чтобы включить звук.</p>
 </body>
 </html>
+
