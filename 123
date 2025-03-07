@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Авто-звук</title>
+</head>
+<body>
+    <audio id="myAudio" autoplay>
+        <source src="audio.mp3" type="audio/mpeg">
+        Ваш браузер не поддерживает аудио.
+    </audio>
+
+    <script>
+        document.addEventListener('click', function () {
+            let audio = document.getElementById("myAudio");
+            audio.play().catch(error => {
+                console.log("Ошибка воспроизведения:", error);
+            });
+        });
+    </script>
+
+    <h1>Добро пожаловать!</h1>
+    <p> ещкере.</p>
+</body>
+</html>
